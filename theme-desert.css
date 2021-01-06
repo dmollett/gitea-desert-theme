@@ -16,7 +16,6 @@
 */
 
 :root {
-  --border-radius: 0.28571429rem;
   --color-primary: #0c1a28;
   --color-secondary: #303C6C;
   --color-secondary-dark-1: #303C6C;
@@ -53,12 +52,8 @@
   --color-active: #B4DFE5;
   --color-menu: #fff;
   --color-card: #fff;
-  --color-markdown-table-row: rgba(0,0,0,0.03137254901960784);
-  --color-markdown-code-block: rgba(0,0,0,0.03137254901960784);
   --color-button: #F4976C;
   --color-code-bg: #FBE8A6;
-  --color-markdown-code-block: rgba(0,0,0,0.06274509803921569);
-  --color-secondary-bg: #f4f4f4;
 }
 
 .ui.basic.label {
