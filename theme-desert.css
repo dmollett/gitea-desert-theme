@@ -77,8 +77,8 @@
 #release-list,
 #user-heatmap, .issue.list,
 .user.list, .feeds,
-.ui.repository.list {
-  padding: 10px;
+.ui.repository.list .item{
+  padding: 25px;
 }
 
 .ui.avatar.image {
