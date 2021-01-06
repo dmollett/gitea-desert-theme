@@ -111,6 +111,7 @@
 
 .ui.primary.button:hover,
 .ui.primary.buttons .button:hover,
+.ui.basic.button:hover,
 .ui.blue.button:hover, .ui.blue.buttons:hover, .button:hover {
   background-color: var(--color-input-border-hover) !important;
   color: #FFF;
