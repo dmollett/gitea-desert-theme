@@ -3,8 +3,6 @@
 
 A super simple desert style theme for Gitea tested on 1.14.0.
 
-**Not Yet Completed! Expected 13/01/2021**
-
 ## Colors Used
 - ![#FBE8A6](https://via.placeholder.com/15/FBE8A6/000000?text=+) #FBE8A6 (Yellow)
 - ![#F4976C](https://via.placeholder.com/15/F4976C/000000?text=+) #F4976C (Orange)

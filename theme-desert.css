@@ -102,12 +102,18 @@
   margin-top: 1rem;
 }
 
+.ui.primary.button,
+.ui.primary.buttons .button,
 .ui.blue.button, .ui.blue.buttons, .button {
   background-color: var(--color-button) !important;
+  color: var(--color-text);
 }
 
+.ui.primary.button:hover,
+.ui.primary.buttons .button:hover,
 .ui.blue.button:hover, .ui.blue.buttons:hover, .button:hover {
   background-color: var(--color-input-border-hover) !important;
+  color: #FFF;
 }
 
 .ui.button:hover, .ui.buttons:hover, .button:hover {
