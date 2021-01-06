@@ -61,6 +61,15 @@
   --color-secondary-bg: #f4f4f4;
 }
 
+.ui.basic.label {
+  background-color: var(--color-label);
+}
+
+.ui.basic.label:hover {
+  background-color: var(--color-label-hover);
+  color: var(--color-text);
+}
+
 #navbar {
   background-color: var(--color-button);
 }
