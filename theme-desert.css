@@ -131,6 +131,10 @@
   border-radius: var(--border-radius);
 }
 
+.ui.container.ten.wide.column {
+  margin-top: 1rem;
+}
+
 .ui.blue.button, .ui.blue.buttons, .button {
   background-color: var(--color-button) !important;
 }
