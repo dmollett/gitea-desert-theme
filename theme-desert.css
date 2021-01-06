@@ -45,8 +45,8 @@
   --color-input-border: #F4976C;
   --color-input-border-hover: #303C6C;
   --color-navbar: #D2FDFF;
-  --color-label: rgba(0,0,0,0.06274509803921569);
-  --color-label-hover: rgba(0,0,0,0.08235294117647059);
+  --color-label: #FBE8A6;
+  --color-label-hover: rgba(251,232,166,0.8);
   --color-label-basic: rgba(0,0,0,0.03137254901960784);
   --color-label-border: rgba(0,0,0,0.09411764705882353);
   --color-hover: rgba(0,0,0,0.0392156862745098);
@@ -81,6 +81,7 @@
   padding: 25px;
 }
 
+.feeds .news li img,
 .ui.avatar.image {
   border: 1px solid var(--color-secondary) !important;
   border-radius: var(--border-radius);
@@ -161,4 +162,13 @@ table>thead>tr>th {
 .ui.green.button, .ui.green.buttons .button,
 .ui.basic.button {
   color: var(--color-text);
+}
+
+.home .hero .svg,
+.home a {
+  color: #303C6C;
+}
+
+.ui.ui.ui.grey.label {
+  background: #F4976C;
 }
