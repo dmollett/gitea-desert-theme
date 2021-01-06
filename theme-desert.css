@@ -106,11 +106,11 @@
 }
 
 .repository .milestone.list {
-  padding-top: 0px;
+  padding: 10px;
   margin-top: 15px;
 }
 
-#user-heatmap,
+#user-heatmap, .issue.list,
 .user.list, .feeds,
 .ui.repository.list {
   padding: 10px;
@@ -139,6 +139,7 @@
   background-color: var(--color-input-border-hover) !important;
 }
 
+.ui.two.item.tabable.menu,
 .ui.compact.left.small.menu,
 .ui.compact.tiny.menu .item {
   background-color: var(--color-box-body);
@@ -158,12 +159,14 @@
 
 .ui.divider:not(.vertical):not(.horizontal) {
   border-color: var(--color-secondary);
+  border-bottom: none;
 }
 
 .ui.table {
   background: var(--color-box-body);
 }
 
+.feeds .list ul li.private,
 .ui.table>thead>tr>th {
   background: var(--color-box-header)
 }
