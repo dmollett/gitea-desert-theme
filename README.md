@@ -1,8 +1,7 @@
-![Screen Shot](screenshots/account.png)
-
 # Gitea Desert Theme 🏜️
 ![CSS Shield](https://img.shields.io/badge/Gitea%20Version-1.14.0-brightgreen) ![CSS Shield](https://img.shields.io/badge/Styling-CSS-informational)
 
+![Screen Shot](screenshots/account.png)
 A super simple desert style theme for Gitea tested on 1.14.0.
 
 ## Colors Used
