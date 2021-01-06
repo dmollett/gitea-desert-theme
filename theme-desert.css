@@ -1,0 +1,111 @@
+/*
+  COPYRIGHT NOTICE
+    
+  THIS CODE IS LICENSED UNDER MIT, YOU ARE FREE TO DO WITH THIS CODE AS PER THE LICENSE.
+  BUT PLEASE LEAVE THIS NOTICE AS CREDIT TO THE AUTHOR
+
+  GITHUB USER dmollett
+*/
+/*
+  Colors
+  - #FBE8A6 (Yellow)
+  - #F4976C (Orange)
+  - #303C6C (Dark Blue)
+  - #B4DFE5 (Mid Blue)
+  - #D2FDFF (Light Blue)
+*/
+
+:root {
+  --border-radius: 0.28571429rem;
+  --color-primary: #4183c4;
+  --color-primary-dark-1: #3876b3;
+  --color-primary-dark-2: #31699f;
+  --color-primary-dark-3: #2b5c8b;
+  --color-primary-dark-4: #254f77;
+  --color-primary-dark-5: #193450;
+  --color-primary-dark-6: #0c1a28;
+  --color-primary-dark-7: #04080c;
+  --color-primary-light-1: #548fca;
+  --color-primary-light-2: #679cd0;
+  --color-primary-light-3: #7aa8d6;
+  --color-primary-light-4: #8db5dc;
+  --color-primary-light-5: #b3cde7;
+  --color-primary-light-6: #d9e6f3;
+  --color-primary-light-7: #f4f8fb;
+  --color-primary-alpha-10: rgba(65,131,196,0.09803921568627451);
+  --color-primary-alpha-20: rgba(65,131,196,0.2);
+  --color-primary-alpha-30: rgba(65,131,196,0.29411764705882354);
+  --color-primary-alpha-40: rgba(65,131,196,0.4);
+  --color-primary-alpha-50: rgba(65,131,196,0.5019607843137255);
+  --color-primary-alpha-60: rgba(65,131,196,0.6);
+  --color-primary-alpha-70: rgba(65,131,196,0.7019607843137254);
+  --color-primary-alpha-80: rgba(65,131,196,0.8);
+  --color-primary-alpha-90: rgba(65,131,196,0.8823529411764706);
+  --color-secondary: #303C6C;
+  --color-secondary-dark-1: #303C6C;
+  --color-secondary-dark-2: #303C6C;
+  --color-secondary-dark-3: #303C6C;
+  --color-secondary-dark-4: #303C6C;
+  --color-secondary-dark-5: #303C6C;
+  --color-secondary-dark-6: #303C6C;
+  --color-secondary-dark-7: #303C6C;
+  --color-secondary-dark-7: #303C6C;
+  --color-secondary-dark-8: #303C6C;
+  --color-secondary-dark-8: #303C6C;
+  --color-secondary-dark-9: #303C6C;
+  --color-secondary-dark-10: #303C6C;
+  --color-secondary-dark-11: #303C6C;
+  --color-secondary-light-1: #e5e5e5;
+  --color-secondary-light-2: #ebebeb;
+  --color-secondary-light-3: #f2f2f2;
+  --color-secondary-light-4: #f8f8f8;
+  --color-secondary-alpha-10: hsla(0,0%,87.1%,0.09803921568627451);
+  --color-secondary-alpha-20: hsla(0,0%,87.1%,0.2);
+  --color-secondary-alpha-30: hsla(0,0%,87.1%,0.29411764705882354);
+  --color-secondary-alpha-40: hsla(0,0%,87.1%,0.4);
+  --color-secondary-alpha-50: hsla(0,0%,87.1%,0.5019607843137255);
+  --color-secondary-alpha-60: hsla(0,0%,87.1%,0.6);
+  --color-secondary-alpha-70: hsla(0,0%,87.1%,0.7019607843137254);
+  --color-secondary-alpha-80: hsla(0,0%,87.1%,0.8);
+  --color-secondary-alpha-90: hsla(0,0%,87.1%,0.8823529411764706);
+  --color-body: #FBE8A6;
+  --color-text: #000000;
+  --color-text-light: #555;
+  --color-text-light-2: #888;
+  --color-box-header: #B4DFE5;
+  --color-box-body: #D2FDFF;
+  --color-footer: #FBE8A6;
+  --color-timeline: #ececec;
+  --color-input-text: #000000;
+  --color-input-background: #FFF;
+  --color-input-border: #F4976C;
+  --color-input-border-hover: #303C6C;
+  --color-navbar: #D2FDFF;
+  --color-label: rgba(0,0,0,0.06274509803921569);
+  --color-label-hover: rgba(0,0,0,0.08235294117647059);
+  --color-label-basic: rgba(0,0,0,0.03137254901960784);
+  --color-label-border: rgba(0,0,0,0.09411764705882353);
+  --color-hover: rgba(0,0,0,0.0392156862745098);
+  --color-active: rgba(0,0,0,0.06274509803921569);
+  --color-menu: #fff;
+  --color-card: #fff;
+  --color-markdown-table-row: rgba(0,0,0,0.03137254901960784);
+  --color-markdown-code-block: rgba(0,0,0,0.03137254901960784);
+  --color-button: #F4976C;
+  --color-code-bg: #FBE8A6;
+  --color-markdown-code-block: rgba(0,0,0,0.06274509803921569);
+  --color-secondary-bg: #f4f4f4;
+}
+
+#navbar {
+  background-color: #F4976C;
+}
+
+.ui.positive.message {
+  background-color: #D2FDFF;
+}
+
+.ui.container {
+  background-color: white;
+  border-radius: 5px;
+}
