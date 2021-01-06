@@ -17,7 +17,7 @@
 
 :root {
   --border-radius: 0.28571429rem;
-  --color-primary: #4183c4;
+  --color-primary: #0c1a28;
   --color-primary-dark-1: #3876b3;
   --color-primary-dark-2: #31699f;
   --color-primary-dark-3: #2b5c8b;
@@ -86,7 +86,7 @@
   --color-label-basic: rgba(0,0,0,0.03137254901960784);
   --color-label-border: rgba(0,0,0,0.09411764705882353);
   --color-hover: rgba(0,0,0,0.0392156862745098);
-  --color-active: rgba(0,0,0,0.06274509803921569);
+  --color-active: #B4DFE5;
   --color-menu: #fff;
   --color-card: #fff;
   --color-markdown-table-row: rgba(0,0,0,0.03137254901960784);
@@ -98,14 +98,80 @@
 }
 
 #navbar {
-  background-color: #F4976C;
+  background-color: var(--color-button);
 }
 
 .ui.positive.message {
-  background-color: #D2FDFF;
+  background-color: var(--color-box-body);
 }
 
-.ui.container {
-  background-color: white;
-  border-radius: 5px;
+.repository .milestone.list {
+  padding-top: 0px;
+  margin-top: 15px;
+}
+
+#user-heatmap,
+.user.list, .feeds,
+.ui.repository.list {
+  padding: 10px;
+}
+
+.ui.avatar.image {
+  border: 1px solid var(--color-secondary) !important;
+  border-radius: var(--border-radius);
+}
+
+.ui.secondary.stackable.pointing.menu + #user-heatmap,
+.ui.vertical.menu, .issue.list,
+.milestone.list, .ui.repository.list,
+.user.list, .ui.card,
+.ui.container.ten.wide.column {
+  background-color: var(--color-box-body);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+}
+
+.ui.blue.button, .ui.blue.buttons, .button {
+  background-color: var(--color-button) !important;
+}
+
+.ui.blue.button:hover, .ui.blue.buttons:hover, .button:hover {
+  background-color: var(--color-input-border-hover) !important;
+}
+
+.ui.compact.left.small.menu,
+.ui.compact.tiny.menu .item {
+  background-color: var(--color-box-body);
+}
+
+.ui.top.attached.tabular.menu .item.active,
+.ui.compact.tiny.menu .item.active {
+  background-color: var(--color-active);
+}
+
+.ui.menu .item>.label {
+  background: var(--color-box-body);
+  color: var(--color-text);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--border-radius);
+}
+
+.ui.divider:not(.vertical):not(.horizontal) {
+  border-color: var(--color-secondary);
+}
+
+.ui.table {
+  background: var(--color-box-body);
+}
+
+.ui.table>thead>tr>th {
+  background: var(--color-box-header)
+}
+
+.ui .error.header {
+  background: rgb(255, 40, 40) !important;
+}
+
+.ui.basic.red.button, .ui.basic.red.buttons .button  {
+  color: rgb(75, 0, 0);
 }
